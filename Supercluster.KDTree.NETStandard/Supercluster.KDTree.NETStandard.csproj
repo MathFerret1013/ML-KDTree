@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\KDTree\BoundedPriorityList.cs" Link="BoundedPriorityList.cs" />
+    <Compile Include="..\KDTree\HyperRect.cs" Link="HyperRect.cs" />
+    <Compile Include="..\KDTree\KDTree.cs" Link="KDTree.cs" />
+    <Compile Include="..\KDTree\Utilities\BinaryTreeNavigation.cs" Link="Utilities\BinaryTreeNavigation.cs" />
+    <Compile Include="..\KDTree\Utilities\BinaryTreeNavigator.cs" Link="Utilities\BinaryTreeNavigator.cs" />
+    <Compile Include="..\KDTree\Utilities\BoundedPriorityListExtensions.cs" Link="Utilities\BoundedPriorityListExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
