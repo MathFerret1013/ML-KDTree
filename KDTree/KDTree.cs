@@ -2,6 +2,8 @@
 // Copyright (c) Eric Regina. All rights reserved.
 // </copyright>
 
+using System.Reflection;
+
 namespace Supercluster.KDTree
 {
     using System;
@@ -29,7 +31,6 @@ namespace Supercluster.KDTree
     /// </remarks>
     /// <typeparam name="TDimension">The type of the dimension.</typeparam>
     /// <typeparam name="TNode">The type representing the actual node objects.</typeparam>
-    [Serializable]
     public class KDTree<TDimension, TNode>
         where TDimension : IComparable<TDimension>
     {
